@@ -1,0 +1,58 @@
+.footer{
+    display: flex;
+
+    width: 100%;
+    margin: auto;
+
+    box-shadow: 19px -14px 19px 3px rgba(0, 0, 0, 0.3);
+
+    .Container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 90%;
+        max-width: 980px;
+        margin: auto;
+        
+        .nomeContainer{
+            font-size: 2.7rem;
+            line-height: 2.7rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+
+            color: #FFFFFF;
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .navContainer{
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            
+            a{
+
+                margin-left: 20px;
+                margin-bottom: 40px;
+
+                img {
+                    width: 50px;
+                    margin-left: 10px;
+                    max-width: 100%;
+                    -moz-transition: all 0.3s;
+                    -webkit-transition: all 0.3s;
+                    transition: all 0.3s;
+                  }
+          
+                  img:hover {
+                    -moz-transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                  }
+            }
+        }
+    }
+}
