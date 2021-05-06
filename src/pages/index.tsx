@@ -114,6 +114,7 @@ export default function Home() {
               <h2 id="Projects">Projects</h2>
             </div>
             <div className={styles.card}>
+              <p>Clique na imagem para ver o projeto</p>
               <div className={styles.cardProjetos}>
                 <a
                   href="https://felpe-sena-portfolio.vercel.app/"
