@@ -1,24 +1,20 @@
-import { Header } from '../components/Header';
-import { Footer } from  '../components/Footer';
-import Head from 'next/head';
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
-import '../styles/global.scss';
+import "../styles/global.scss";
 
-import styles from '../styles/app.module.scss';
+import styles from "../styles/app.module.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div className={styles.wrapper}>
       <main>
-        <Head>
-          <link rel="shortcut icon" href="../static/favicon.ico" />
-        </Head>
-        <Header/>
+        <Header />
         <Component {...pageProps} />
-        <Footer/>
+        <Footer />
       </main>
     </div>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

@@ -5,13 +5,13 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-
+          <link rel="shortcut icon" href="icon.png" type="image/png"/>
+          <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
           <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@500;600&display=swap"
             rel="stylesheet"
-            />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+          />
         </Head>
         <body>
           <Main />
