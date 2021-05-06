@@ -14,12 +14,6 @@ export function Header() {
           <nav>
             <ul>
               <li>
-                <a id="Voltar" href="#Header">
-                  <p>Home</p>
-                  <FontAwesomeIcon className={styles.iconNav} icon={faHome} />
-                </a>
-              </li>
-              <li>
                 <a href="#Profile">
                   <p>Profile </p>
                   <FontAwesomeIcon className={styles.iconNav} icon={faUser} />

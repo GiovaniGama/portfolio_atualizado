@@ -120,7 +120,7 @@ export default function Home() {
         </section>
         <section>
           <div className={styles.buttonContainer}>
-            <a href="#Voltar"><FontAwesomeIcon className={styles.icon3} icon={faArrowUp} /><p>Voltar</p></a>
+            <a href="#Header"><FontAwesomeIcon className={styles.icon3} icon={faArrowUp} /><p>Voltar</p></a>
           </div>
         </section>
       </main>

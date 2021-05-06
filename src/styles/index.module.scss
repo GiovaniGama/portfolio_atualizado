@@ -15,7 +15,7 @@
 
     width: 600px;
 
-    margin-top: 20px;
+    margin-top: 100px;
   }
 
   .image1 {
@@ -41,6 +41,8 @@
         font-size: 2.5rem;
         line-height: 2.5rem;
 
+        margin-bottom: 20px;
+
         color: #48bb9e;
       }
 
@@ -62,6 +64,7 @@
     .icon1 {
       font-size: 3.5rem;
       color: #c964bf;
+      margin-top: 20px;
       margin-bottom: 16px;
     }
   }
@@ -72,6 +75,7 @@
         margin-right: 20px;
 
         img {
+          margin-top: 50px;
           width: 50px;
           margin-left: 10px;
           max-width: 100%;
@@ -101,7 +105,7 @@
 
   .imgConhecimentos {
     width: 100px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 10px;
     max-width: 100%;
     -moz-transition: all 0.3s;
@@ -126,7 +130,7 @@
 
   .tituloPefil {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 40px;
 
     h2 {
@@ -487,7 +491,7 @@
           margin-top: 40px;
         }
         .tema{
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
       }
     }
@@ -495,7 +499,7 @@
 
   .conhecimentosContainer{
     .imgConhecimentos{
-      width: 60px;
+      width: 50px;
     }
   }
 
