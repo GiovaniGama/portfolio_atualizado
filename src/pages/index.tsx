@@ -95,10 +95,14 @@ export default function Home() {
               <div>
                 <h2>Sobre Mim</h2>
                 <div className={styles.card1}>
-                  <p>Sou um jovem, criativo e esforçado que sempre está em busca em adquirir mais 
-                      conhecimentos naquilo que almeja para o meu futuro, minhas principais habilidades são ser 
-                      esforçado e nunca desistir de meus objetivos, então, eu sempre estarei pronto para aprender
-                      e aprimorar meus conhecimentos e habilidades profissionais.</p>
+                  <p>
+                    Sou um jovem, criativo e esforçado que sempre está em busca
+                    em adquirir mais conhecimentos naquilo que almeja para o meu
+                    futuro, minhas principais habilidades são o esforço e
+                    persistência em meus objetivos, então, eu sempre estarei
+                    pronto para aprender e aprimorar meus conhecimentos e
+                    habilidades profissionais.
+                  </p>
                 </div>
               </div>
             </div>
@@ -111,7 +115,12 @@ export default function Home() {
             </div>
             <div className={styles.card}>
               <div className={styles.cardProjetos}>
-                <a href="https://felpe-sena-portfolio.vercel.app/" target="_blank"><img src="/projeto1.svg" alt="Projeto 1"/></a>
+                <a
+                  href="https://felpe-sena-portfolio.vercel.app/"
+                  target="_blank"
+                >
+                  <img src="/projeto1.svg" alt="Projeto 1" />
+                </a>
               </div>
               <h2>Portfólio</h2>
               <p>Projeto finalizado</p>
@@ -120,7 +129,10 @@ export default function Home() {
         </section>
         <section>
           <div className={styles.buttonContainer}>
-            <a href="#Header"><FontAwesomeIcon className={styles.icon3} icon={faArrowUp} /><p>Voltar</p></a>
+            <a href="#Header">
+              <FontAwesomeIcon className={styles.icon3} icon={faArrowUp} />
+              <p>Voltar</p>
+            </a>
           </div>
         </section>
       </main>
