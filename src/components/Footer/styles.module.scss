@@ -6,6 +6,8 @@
 
     box-shadow: 19px -14px 19px 3px rgba(0, 0, 0, 0.3);
 
+    background-color: #24242C;
+
     .Container{
         display: flex;
         align-items: center;
@@ -53,6 +55,14 @@
                     transform: scale(1.1);
                   }
             }
+        }
+
+        p{
+            text-align:center;
+            font-family: "Roboto", sans-serif;
+            color: #ffffff;
+            font-weight: bold;
+            margin-bottom: 30px;
         }
     }
 }

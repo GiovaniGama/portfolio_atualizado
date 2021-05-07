@@ -20,6 +20,7 @@ export function Footer() {
               <img src="/email.svg" alt="Link do email" />
             </a>
           </nav>
+          <p> &copy; Desenvolvido Por Giovani Gama </p>
         </div>
       </footer>
     </div>
