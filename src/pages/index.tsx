@@ -69,7 +69,6 @@ export default function Home() {
               className={styles.imgConhecimentos}
               alt="React"
             />
-            <img src="/Php.svg" className={styles.imgConhecimentos} alt="Php" />
             <img
               src="/html.svg"
               className={styles.imgConhecimentos}
